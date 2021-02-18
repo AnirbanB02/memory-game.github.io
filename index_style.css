@@ -1,0 +1,75 @@
+html,body{
+  margin:0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+img{
+  width:100%;
+}
+#Title{
+  font-size:2rem;
+  font-weight: bold;
+  margin:15px;
+  padding: 15px;
+}
+#description{
+  padding:15px;
+  margin: 15px;
+}
+main{
+  height:100vh;
+  width:100vw;
+  display:grid;
+  grid-template-columns: 30% 70%;
+  grid-template-rows: 30% 70%;
+  grid-template-areas: 
+  "sidebar banner"
+  "sidebar content";
+
+}
+.sidebar{
+  grid-area:sidebar;
+  background-color:black;
+  color:whitesmoke;
+}
+.banner{
+  grid-area: banner;
+  background-color:rgb(0, 39, 83);
+  color:whitesmoke;
+  text-align: center;
+  padding: 7%;
+  font-size: 300%;
+  font-weight: bold;
+}
+.content{
+  grid-area: content;
+  background-color:#233232;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn{
+  background-color: rgb(148, 236, 15);
+  width: 60%;
+  text-align: center;
+  padding: 15px;
+  font-size:1.6rem;
+  font-weight:bold;
+  border-radius: 40px;
+  cursor: pointer;
+}
+a{
+  width: 40%;
+  text-align: center;
+  padding: 15px;
+  font-size:1.6rem;
+  font-weight:bold;
+  border-radius: 40px;
+  cursor: pointer;
+  text-decoration: none;
+  color:black;
+  display:flex;
+  justify-content:center;
+}
+a:visited{
+  text-decoration:none;
+}

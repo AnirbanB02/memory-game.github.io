@@ -1,0 +1,19 @@
+body{
+  background-color: #232323;
+  text-align: center;
+  color: whitesmoke;
+}
+.grid{
+  display: flex;
+  margin: auto;
+  flex-wrap: wrap;
+  width:832px;
+  height:624px;
+}
+
+.grid > img{
+  border-radius: 40px;
+  margin: 4px;
+  height: 200px;
+}
+
